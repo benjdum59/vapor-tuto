@@ -47,10 +47,9 @@ vapor xcode
 ```
 
 ## Run project inside XCode
-Open *.xcodeproj file
-Select App scheme
-Click on Build button
-You should see this sentence in termonal:
+1. Open *.xcodeproj file
+2. Select App scheme
+3. Click on Build button
+4. You should see this sentence in terminal:
 starting at 0.0.0.0:8080
-
-Try with your favorite browser (http://localhost:8080)
+5. Try with your favorite browser (http://localhost:8080)
