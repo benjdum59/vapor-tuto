@@ -53,3 +53,16 @@ vapor xcode
 4. You should see this sentence in terminal:
 starting at 0.0.0.0:8080
 5. Try with your favorite browser (http://localhost:8080)
+
+## Database
+### ORM
+The ORM used by Vapor is Fluent.
+https://github.com/vapor/fluent
+
+### Database types
+There are multiple database drivers used by Fluent. These are some of them:
+- MySQL (https://github.com/vapor/mysql https://github.com/vapor/mysql-driver https://github.com/vapor/mysql-provider)
+- SQLite (https://github.com/vapor/sqlite https://github.com/vapor/sqlite-driver https://github.com/vapor/sqlite-provider)
+- MongoDB (https://github.com/vapor/mongo-driver https://github.com/vapor/mongo-provider)
+- PostgresSQL (https://github.com/vapor/postgresql, https://github.com/vapor/postgresql-driver, https://github.com/vapor/postgresql-provider)
+
